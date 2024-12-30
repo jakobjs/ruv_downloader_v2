@@ -139,7 +139,7 @@ def get_show_data(show_id):
 
     show_id = str(show_id)
 
-    gql_search_url = "https://spilari.nyr.ruv.is/gql/?operationName=getEpisode&variables=%7B%22programID%22%3A" + show_id + "%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22f3f957a3a577be001eccf93a76cf2ae1b6d10c95e67305c56e4273279115bb93%22%7D%7D"
+    gql_search_url = "https://spilari.nyr.ruv.is/gql/?operationName=getEpisode&variables=%7B%22programID%22%3A" + show_id + "%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%223c1f5cfa93253b4aabd0f1023be91a30d36ef0acc0d3356aac445d9e005b97f8%22%7D%7D"
 
     
     kvs_key = "_graphql_cache-" + show_id
